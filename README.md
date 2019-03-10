@@ -84,18 +84,18 @@ Also add
 10. Clean and Rebuild your Xcode project
 
 
-##API
+## API
 
 `getContact` (Promise) - returns basic contact data as a JS object.  Currently returns name, first phone number and first email for contact.
 `getEmail` (Promise) - returns first email address (if found) for contact as string.
 
 
-##Usage
+## Usage
 
 Methods should be called from React Native as any other promise.
 Prevent methods from being called multiple times (on Android).
 
-###Example
+### Example
 
 An example project can be found in this repo: https://github.com/LynxITDigital/react-native-contacts-wrapper-example/tree/master
 
